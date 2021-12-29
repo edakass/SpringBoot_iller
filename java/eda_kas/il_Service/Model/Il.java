@@ -14,6 +14,4 @@ public class Il {
     private Date createDate;
     private  String id;
     private String name;
-
-
 }
