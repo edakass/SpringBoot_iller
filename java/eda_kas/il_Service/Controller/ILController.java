@@ -44,12 +44,8 @@ public class ILController {
             iller.add(il1);
             iller.add(il2);
             // iller= Arrays.asList(il1,il2);
-
-
         }
-
     }
-
 
     @GetMapping
     public ResponseEntity<List<Il>> getIller(){
@@ -58,7 +54,7 @@ public class ILController {
          //OK'u static import yaptık
          /*ResponseEntity-genelde rest ortamında kullanılan bir class'lardır.
           bunu şu şekilde de yapılabilirdi üsteki kod
-
+          
            public ResponseEntity<List<Il>> getIller(){
            Il il1=new Il("60","Tokat");
            Il il2=new Il("05","Amasya");
@@ -131,5 +127,4 @@ public class ILController {
         HttpStatus'un 200 numaralı olanları http de okey anlamına gelir.
          */
     }
-
 }
